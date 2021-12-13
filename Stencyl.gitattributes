@@ -12,3 +12,8 @@
 *.wav  binary
 *.mp3  binary
 *.ogg  binary
+
+## Stencyl
+*.layout  binary
+*.scn     binary
+*.design  text
