@@ -12,11 +12,11 @@ Projects, samples and templates created to learn game development with the [Sten
 These are the [Crash Courses][start] found on [Stencylpedia][help].
 
 1. :heavy_check_mark: Crash Course Game
-2. :o: Invaders
+2. :heavy_check_mark: Invaders
 
 ### Stencyl Tutorials
 
-1. :o: [Abigayl's Interactive Tutorials](http://www.stencyl.com/help/viewArticle/102)
+1. :construction: [Abigayl's Interactive Tutorials](http://www.stencyl.com/help/viewArticle/102)
 
 ## :page_with_curl: License
 
