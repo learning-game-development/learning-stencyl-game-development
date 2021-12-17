@@ -18,7 +18,7 @@
                             <ACTOR eid="this" id="0"/>
                         </clear-filter>
                     </group>
-                    <int id="0" val="1"/>
+                    <int id="0" val="0.2"/>
                     <ACTOR eid="this" id="2"/>
                 </dolater>
             </group>
@@ -58,4 +58,76 @@
         </step>
     </group>
     <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="4" id="-1">
+                        <moveToBy comment="false" x="37" y="70">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <times comment="false" id="2" x="0" y="0">
+                                <int id="0" val="40"/>
+                                <get-val-1-3 comment="false" id="1" x="0" y="0"/>
+                            </times>
+                            <int id="3" val="0"/>
+                            <int id="4" val="1"/>
+                            <int id="5" val="0"/>
+                        </moveToBy>
+                        <set-val-1-2 comment="false" x="37" y="107">
+                            <int id="0" val="0"/>
+                        </set-val-1-2>
+                        <set-val-1-3 comment="false" x="37" y="127">
+                            <times comment="false" id="0" x="0" y="0">
+                                <get-val-1-3 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="-1"/>
+                            </times>
+                        </set-val-1-3>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-1-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="60"/>
+                    </eq>
+                </if>
+                <set-val-1-2 comment="false" x="26" y="169">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-val-1-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </plus>
+                </set-val-1-2>
+            </group>
+        </step>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <set-val-1-3 comment="false" x="26" y="40">
+                    <randint comment="false" id="0" x="0" y="0">
+                        <int id="0" val="-1"/>
+                        <int id="1" val="2"/>
+                    </randint>
+                </set-val-1-3>
+                <if comment="false" x="26" y="65">
+                    <group eventID="5" id="-1">
+                        <set-val-1-3 comment="false" x="37" y="95">
+                            <int id="0" val="-1"/>
+                        </set-val-1-3>
+                    </group>
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <get-val-1-3 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </lesseq>
+                </if>
+                <else comment="false" x="26" y="127">
+                    <group eventID="5" id="-1">
+                        <set-val-1-3 comment="false" x="37" y="147">
+                            <int id="0" val="1"/>
+                        </set-val-1-3>
+                    </group>
+                </else>
+            </group>
+        </init>
+    </group>
+    <group eventID="5" id="-1"/>
 </groups>
