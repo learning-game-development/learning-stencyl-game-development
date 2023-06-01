@@ -23,7 +23,7 @@ These are the [Crash Courses][start] found on [Stencylpedia][help].
 
 ### Online Courses
 
-1. :construction: Create Your First Computer Game with Stencyl -- StackSkills
+1. :o: Create Your First Computer Game with Stencyl -- StackSkills
 2. :construction: Design and Develop Advanced Computer Games with Stencyl -- StackSkills
 3. :heavy_check_mark: Let's learn Stencyl -- Udemy
 
